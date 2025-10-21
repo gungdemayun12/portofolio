@@ -130,7 +130,7 @@ export default function Home() {
 
         <div className="space-y-3" data-aos="fade-up" data-aos-delay="300">
           <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold tracking-tight">
-            <span className="block mb-2 text-gray-800">Halo, I'm</span>
+            <span className="block mb-2 text-gray-800">Halo, Im</span>
             <span className="block text-black">Gungdemayun</span>
           </h1>
 
@@ -263,7 +263,7 @@ export default function Home() {
 
       <div className="space-y-4" data-aos="fade-up" data-aos-delay="300">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-black">
-          <span className="block mb-2 text-gray-800">Halo, I'm</span>
+          <span className="block mb-2 text-gray-800">Halo, Im</span>
           <span className="block text-black">Gungdemayun</span>
         </h1>
         <div className="flex items-center justify-center gap-2 text-xl sm:text-2xl md:text-3xl text-gray-800">
@@ -360,7 +360,7 @@ export default function Home() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            I'm a passionate web developer with experience in creating innovative and aesthetically crafted digital solutions.
+            Im a passionate web developer with experience in creating innovative and aesthetically crafted digital solutions.
           </p>
 
           </div>
