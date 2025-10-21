@@ -105,231 +105,241 @@ export default function Home() {
         ))}
       </div>
 
-      <section className="relative flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8 py-20 md:py-24 bg-white text-black overflow-hidden -mt-10">
-        <div className="max-w-6xl mx-auto w-full">
-          <div className="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
-            <div
-              className="space-y-6 text-left"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              <div
-                className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 border border-black/20 rounded-full backdrop-blur-sm"
-                data-aos="zoom-in"
-                data-aos-delay="200"
-              >
-                <Sparkles className="w-4 h-4 text-black animate-pulse" />
-                <span className="text-sm font-medium text-black">
-                  Available for new projects
-                </span>
-              </div>
+     <section
+  id="home"
+  className="relative flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8 py-20 md:py-24 bg-white text-black overflow-hidden -mt-10"
+>
+  <div className="max-w-6xl mx-auto w-full">
+    {/* Desktop View */}
+    <div className="hidden lg:grid lg:grid-cols-2 lg:gap-12 lg:items-center">
+      <div
+        className="space-y-6 text-left"
+        data-aos="fade-right"
+        data-aos-delay="100"
+      >
+        <div
+          className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 border border-black/20 rounded-full backdrop-blur-sm"
+          data-aos="zoom-in"
+          data-aos-delay="200"
+        >
+          <Sparkles className="w-4 h-4 text-black animate-pulse" />
+          <span className="text-sm font-medium text-black">
+            Available for new projects
+          </span>
+        </div>
 
-              <div className="space-y-3" data-aos="fade-up" data-aos-delay="300">
-                <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold tracking-tight">
-                  <span className="block mb-2 text-gray-800">Halo, I'm</span>
-                  <span className="block text-black">Gungdemayun</span>
-                </h1>
+        <div className="space-y-3" data-aos="fade-up" data-aos-delay="300">
+          <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold tracking-tight">
+            <span className="block mb-2 text-gray-800">Halo, I'm</span>
+            <span className="block text-black">Gungdemayun</span>
+          </h1>
 
-                <div
-                  className="flex items-center gap-3 text-2xl xl:text-3xl text-gray-800"
-                  data-aos="fade-up"
-                  data-aos-delay="400"
-                >
-                  <Code2 className="w-8 h-8 text-black" />
-                  <span className="text-black font-bold typing-cursor">
-                    {displayedText}
-                  </span>
-                </div>
-              </div>
-
-              <p
-                className="text-lg xl:text-xl text-gray-700 leading-relaxed max-w-xl"
-                data-aos="fade-up"
-                data-aos-delay="500"
-              >
-                Passionate about crafting digital solutions that are{" "}
-                <span className="font-semibold text-black">creative</span>,{" "}
-                <span className="font-semibold text-black">innovative</span>, and{" "}
-                <span className="font-semibold text-black">impactful</span>. Turning
-                ideas into extraordinary digital experiences.
-              </p>
-
-              <div
-                className="flex flex-wrap gap-4 pt-4"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <a
-                  href="#projects"
-                  className="group bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
-                >
-                  <Rocket className="w-5 h-5" />
-                  VIEW MY PROJECTS
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </a>
-
-                <a
-                  href="#contact"
-                  className="group border-2 border-black text-black px-8 py-4 rounded-xl font-semibold hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
-                >
-                  GET IN TOUCH
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                </a>
-              </div>
-
-              <div
-                className="flex items-center gap-4"
-                data-aos="fade-up"
-                data-aos-delay="700"
-              >
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-                >
-                  <Github className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-                </a>
-
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-                >
-                  <Linkedin className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-                </a>
-
-                <a
-                  href="mailto:gungdemayun64@gmail.com"
-                  className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-                >
-                  <Mail className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-                </a>
-              </div>
-            </div>
-
-            <div
-              className="flex items-center justify-center"
-              data-aos="zoom-in-up"
-              data-aos-delay="400"
-            >
-              <div className="relative inline-block">
-                <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px] lg:w-[400px] lg:h-[400px]">
-                  <Image
-                    src="/profil.jpg"
-                    alt="Gungdemayun Profile"
-                    fill
-                    className="rounded-full object-cover border-4 border-gray-200 shadow-xl hover:scale-105 transition-transform duration-500"
-                    priority
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:hidden text-center space-y-8">
-            <div
-              className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 border border-black/20 rounded-full backdrop-blur-sm"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <Sparkles className="w-4 h-4 text-black animate-pulse" />
-              <span className="text-sm font-medium text-black">
-                Available for new projects
-              </span>
-            </div>
-
-            <div
-              className="relative inline-block"
-              data-aos="zoom-in-up"
-              data-aos-delay="200"
-            >
-              <div className="relative w-[160px] h-[160px] sm:w-[200px] sm:h-[200px] md:w-[220px] md:h-[220px] mx-auto">
-                <Image
-                  src="/profil.jpg"
-                  alt="Gungdemayun Profile"
-                  fill
-                  className="rounded-full object-cover border-4 border-gray-200 shadow-xl hover:scale-105 transition-transform duration-500"
-                  priority
-                />
-              </div>
-            </div>
-
-            <div className="space-y-4" data-aos="fade-up" data-aos-delay="300">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-black">
-                <span className="block mb-2 text-gray-800">Halo, I'm</span>
-                <span className="block text-black">Gungdemayun</span>
-              </h1>
-              <div className="flex items-center justify-center gap-2 text-xl sm:text-2xl md:text-3xl text-gray-800">
-                <Code2 className="w-6 h-6 sm:w-8 sm:h-8 text-black" />
-                <span className="text-black font-bold typing-cursor">
-                  {displayedText}
-                </span>
-              </div>
-            </div>
-
-            <p
-              className="text-lg xl:text-xl text-gray-700 leading-relaxed max-w-xl mx-auto"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              Passionate about crafting digital solutions that are{" "}
-              <span className="font-semibold text-black">creative</span>,{" "}
-              <span className="font-semibold text-black">innovative</span>, and{" "}
-              <span className="font-semibold text-black">impactful</span>. Turning
-              ideas into extraordinary digital experiences.
-            </p>
-
-            <div
-              className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <a
-                href="#projects"
-                className="group w-full sm:w-auto bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
-              >
-                <Rocket className="w-5 h-5" />
-                VIEW MY PROJECTS
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-              <a
-                href="#contact"
-                className="group w-full sm:w-auto border-2 border-black text-black px-8 py-4 rounded-xl font-semibold hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
-              >
-                GET IN TOUCH
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </div>
-        
-            <div
-              className="flex items-center justify-center gap-4"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <a
-                href="https://github.com"
-                target="_blank"
-                className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-              >
-                <Github className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-              </a>
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-              >
-                <Linkedin className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-              </a>
-              <a
-                href="mailto:gungdemayun64@gmail.com"
-                className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
-              >
-                <Mail className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
-              </a>
-            </div>
+          <div
+            className="flex items-center gap-3 text-2xl xl:text-3xl text-gray-800"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <Code2 className="w-8 h-8 text-black" />
+            <span className="text-black font-bold typing-cursor">
+              {displayedText}
+            </span>
           </div>
         </div>
-      </section>
+
+        <p
+          className="text-lg xl:text-xl text-gray-700 leading-relaxed max-w-xl"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          Passionate about crafting digital solutions that are{" "}
+          <span className="font-semibold text-black">creative</span>,{" "}
+          <span className="font-semibold text-black">innovative</span>, and{" "}
+          <span className="font-semibold text-black">impactful</span>. Turning
+          ideas into extraordinary digital experiences.
+        </p>
+
+        <div
+          className="flex flex-wrap gap-4 pt-4"
+          data-aos="fade-up"
+          data-aos-delay="600"
+        >
+          <a
+            href="#projects"
+            className="group bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          >
+            <Rocket className="w-5 h-5" />
+            VIEW MY PROJECTS
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
+
+          <a
+            href="#contact"
+            className="group border-2 border-black text-black px-8 py-4 rounded-xl font-semibold hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
+          >
+            GET IN TOUCH
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
+        </div>
+
+        <div
+          className="flex items-center gap-4"
+          data-aos="fade-up"
+          data-aos-delay="700"
+        >
+          <a
+            href="https://github.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+          >
+            <Github className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+          </a>
+
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+          >
+            <Linkedin className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+          </a>
+
+          <a
+            href="mailto:gungdemayun64@gmail.com"
+            className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+          >
+            <Mail className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+          </a>
+        </div>
+      </div>
+
+      <div
+        className="flex items-center justify-center"
+        data-aos="zoom-in-up"
+        data-aos-delay="400"
+      >
+        <div className="relative inline-block">
+          <div className="relative w-[320px] h-[320px] md:w-[380px] md:h-[380px] lg:w-[400px] lg:h-[400px]">
+            <Image
+              src="/profil.jpg"
+              alt="Gungdemayun Profile"
+              fill
+              className="rounded-full object-cover border-4 border-gray-200 shadow-xl hover:scale-105 transition-transform duration-500"
+              priority
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Mobile View */}
+    <div className="lg:hidden text-center space-y-8">
+      <div
+        className="inline-flex items-center gap-2 px-4 py-2 bg-black/10 border border-black/20 rounded-full backdrop-blur-sm"
+        data-aos="zoom-in"
+        data-aos-delay="100"
+      >
+        <Sparkles className="w-4 h-4 text-black animate-pulse" />
+        <span className="text-sm font-medium text-black">
+          Available for new projects
+        </span>
+      </div>
+
+      <div
+        className="relative inline-block"
+        data-aos="zoom-in-up"
+        data-aos-delay="200"
+      >
+        <div className="relative w-[160px] h-[160px] sm:w-[200px] sm:h-[200px] md:w-[220px] md:h-[220px] mx-auto">
+          <Image
+            src="/profil.jpg"
+            alt="Gungdemayun Profile"
+            fill
+            className="rounded-full object-cover border-4 border-gray-200 shadow-xl hover:scale-105 transition-transform duration-500"
+            priority
+          />
+        </div>
+      </div>
+
+      <div className="space-y-4" data-aos="fade-up" data-aos-delay="300">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-black">
+          <span className="block mb-2 text-gray-800">Halo, I'm</span>
+          <span className="block text-black">Gungdemayun</span>
+        </h1>
+        <div className="flex items-center justify-center gap-2 text-xl sm:text-2xl md:text-3xl text-gray-800">
+          <Code2 className="w-6 h-6 sm:w-8 sm:h-8 text-black" />
+          <span className="text-black font-bold typing-cursor">
+            {displayedText}
+          </span>
+        </div>
+      </div>
+
+      <p
+        className="text-lg xl:text-xl text-gray-700 leading-relaxed max-w-xl mx-auto"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        Passionate about crafting digital solutions that are{" "}
+        <span className="font-semibold text-black">creative</span>,{" "}
+        <span className="font-semibold text-black">innovative</span>, and{" "}
+        <span className="font-semibold text-black">impactful</span>. Turning
+        ideas into extraordinary digital experiences.
+      </p>
+
+      <div
+        className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4"
+        data-aos="fade-up"
+        data-aos-delay="500"
+      >
+        <a
+          href="#projects"
+          className="group w-full sm:w-auto bg-black text-white px-8 py-4 rounded-xl font-semibold hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+        >
+          <Rocket className="w-5 h-5" />
+          VIEW MY PROJECTS
+          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </a>
+        <a
+          href="#contact"
+          className="group w-full sm:w-auto border-2 border-black text-black px-8 py-4 rounded-xl font-semibold hover:bg-black hover:text-white transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2"
+        >
+          GET IN TOUCH
+          <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        </a>
+      </div>
+
+      <div
+        className="flex items-center justify-center gap-4"
+        data-aos="fade-up"
+        data-aos-delay="600"
+      >
+        <a
+          href="https://github.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+        >
+          <Github className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+        </a>
+        <a
+          href="https://linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+        >
+          <Linkedin className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+        </a>
+        <a
+          href="mailto:gungdemayun64@gmail.com"
+          className="w-12 h-12 flex items-center justify-center rounded-xl border border-gray-400 hover:bg-gray-100 transition-all duration-300 group"
+        >
+          <Mail className="w-5 h-5 text-gray-700 group-hover:text-black transition-colors" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
       <section className="relative py-20 md:py-24 px-4 sm:px-6 lg:px-8 bg-white text-black">
